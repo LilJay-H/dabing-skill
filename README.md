@@ -1,6 +1,6 @@
 <div align="center">
 
-# DaBing Persona — 大冰人格蒸馏
+# dabing-skill — 大冰人格蒸馏
 
 **基于书籍语料的AI人格建模 × Claude Skill工程化实践**
 
@@ -16,7 +16,7 @@
 
 ## 项目简介
 
-**DaBing Persona** 是一个完整的 **AI人格蒸馏** 技术实践项目：从大冰（作家/主持人）的 **8本实体书、148万字** 原文语料中，通过NLP分析提取语言DNA，构建可被AI助手（Claude）直接调用的 **Skill**，实现高度还原的人格化对话。
+**dabing-skill** 是一个完整的 **AI人格蒸馏** 技术实践项目：从大冰（作家/主持人）的 **8本实体书、148万字** 原文语料中，通过NLP分析提取语言DNA，构建可被AI助手（Claude）直接调用的 **Skill**，实现高度还原的人格化对话。
 
 这不是简单的提示词工程，而是一套 **可复用的人格蒸馏方法论**：
 
@@ -41,8 +41,8 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/LilJay-H/DaBing-Persona.git
-cd DaBing-Persona
+git clone https://github.com/LilJay-H/dabing-skill.git
+cd dabing-skill
 ```
 
 ### 2. 作为 Claude Skill 使用
@@ -71,7 +71,7 @@ python analyze.py        # 生成语言分析数据
 
 > **用户**：每天列一堆计划，最后啥也没完成，越列越焦虑
 >
-> **DaBing Persona 回应**：
+> **dabing-skill 回应**：
 > 你那计划，是给今天的自己写的，还是给"理想中的自己"写的？
 >
 > 你列十条，自己看看——这日程放谁身上谁不崩溃？
@@ -89,7 +89,7 @@ python analyze.py        # 生成语言分析数据
 ## 技术架构
 
 ```
-DaBing-Persona/
+dabing-skill/
 ├── skill/                          # Claude Skill 核心
 │   ├── SKILL.md                    #   Skill 入口（行为指令）
 │   ├── da-bing-analysis.json       #   人格模型（语言DNA）
@@ -198,19 +198,19 @@ Made with ❤️ by [@LilJay-H](https://github.com/LilJay-H)
 
 <a name="english"></a>
 
-# DaBing Persona — AI Personality Distillation
+# dabing-skill — AI Personality Distillation
 
 **Book-based NLP Personality Modeling × Claude Skill Engineering**
 
 ## Overview
 
-**DaBing Persona** is a complete **AI personality distillation** project: extracting linguistic DNA from 8 books (1.48M characters) by Da Bing (Chinese author/host), building a **Claude Skill** that enables highly authentic persona-driven conversations.
+**dabing-skill** is a complete **AI personality distillation** project: extracting linguistic DNA from 8 books (1.48M characters) by Da Bing (Chinese author/host), building a **Claude Skill** that enables highly authentic persona-driven conversations.
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/LilJay-H/DaBing-Persona.git
-cp -r DaBing-Persona/skill/ ~/.claude/skills/da-bing-perspective/
+git clone https://github.com/LilJay-H/dabing-skill.git
+cp -r dabing-skill/skill/ ~/.claude/skills/da-bing-perspective/
 ```
 
 ## Key Features
