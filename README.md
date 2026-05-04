@@ -1,8 +1,10 @@
 <div align="center">
 
-# dabing-skill — 大冰人格蒸馏
+# dabing-skill · 冰言冰语
 
-**基于书籍语料的AI人格建模 × Claude Skill工程化实践**
+**8本书 × 148万字语料 · 还原大冰的语言风格、思维方式与人生智慧**
+
+> 本 Skill 基于「女娲造人」Skill 蒸馏框架制作
 
 [English](#english) | 中文
 
