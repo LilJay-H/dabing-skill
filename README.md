@@ -1,6 +1,6 @@
 <div align="center">
 
-# dabing-skill · 冰言冰语
+# 冰言冰语 · Dabing-skill
 
 **8本书 × 148万字语料 · 还原大冰的语言风格、思维方式与人生智慧**
 
